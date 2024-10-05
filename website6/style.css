@@ -1,0 +1,50 @@
+.section1{
+    padding: 30px 20px;
+    background-color: aqua;
+    text-align: justify;
+    margin: 20px 100px;
+    font-family: 'Franklin Gothic Medium';
+    font-size: medium;
+    color: blue;
+}
+.section2{
+    padding: 30px 20px;
+    background-color: burlywood;
+    text-align: justify;
+    margin: 10px 80px;
+    font-family: 'Franklin Gothic Medium';
+    font-size: medium;
+    color: brown;
+}
+.section3{
+    padding: 30px 20px;
+    background-color: orchid;
+    margin: 20px 60px;
+    font-family: 'Franklin Gothic Medium';
+    font-size: medium;
+    color: darkmagenta;
+}
+.section4{
+    padding: 30px 20px;
+    background-color: chartreuse;
+    margin: 20px 40px;
+    font-family: 'Franklin Gothic Medium';
+    font-size: medium;
+    color: darkgreen;
+    table,th,td{
+        border: 1px solid rgb(56, 46, 46);
+        border-collapse: collapse;
+    }
+    table{
+        width: 50%;
+    }
+}
+.section5{
+    padding: 30px 20px;
+    background-color: gray;
+    text-align: justify;
+    margin: 20px;
+    font-family: 'Franklin Gothic Medium';
+    font-size: medium;
+    color: honeydew;
+}

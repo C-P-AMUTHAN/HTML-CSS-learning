@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Amuthan form</title>
+    </head>
+    <body>
+        <center>
+            <h1>AMUTHAN FORM</h1>
+            <form action="data.php" target="_blank" method="post" autocomplete="on" rel="nofollow">
+                <fieldset style="background-color: aqua;">
+                    <legend>Personal details</legend>
+                    <label for="fnmae">First Name</label>
+                    <br>
+                    <input type="text" name="fname" id="fname">
+                    <br>
+                    <label for="lnmae">Last Name</label>
+                    <br>
+                    <input type="text" name="lname" id="lname">
+                    <br>
+                    <label for="cs">Course Selection</label>
+                    <br>
+                    <input list="courseselection" name="cs" id="cs">
+                    <datalist id="courseselection">
+                        <option value="CSE">
+                        <option value="ECE">
+                        <option value="EEE">
+                        <option value="MECH">
+                        <option value="CIVIL">
+                    </datalist>
+                </fieldset>
+                <fieldset style="background-color:khaki;">
+                    <legend>Address</legend>
+                    <label for="house">House No</label>
+                    <br>
+                    <input type="number" name="house" id="house">
+                    <br>
+                    <label for="street">Street Name</label>
+                    <br>
+                    <input type="text" name="street" id="street">
+                    <br>
+                    <label for="area">Area Name</label>
+                    <br>
+                    <input type="text" name="area" id="area">
+                    <br>
+                    <label for="district">District</label>
+                    <br>
+                    <select name="district" id="district">
+                        <option value="Chennai">Chennai</option>
+                        <option value="Coimbatore">Coimbatore</option>
+                        <option value="Trichy">Trichy</option>
+                        <option value="Madurai">Madurai</option>
+                        <option value="Thoothukudi">Thoothukudi</option>
+                    </select>
+                </fieldset>
+                <fieldset style="background-color: burlywood;">
+                    <legend>Message</legend>
+                    <label for="msg">write your thoughts</label>
+                    <br>
+                    <textarea name="msg" id="" cols="30" rows="10"></textarea>
+                </fieldset>
+                <output>Form submitted</output>
+                <br>
+                <button type="submit">Submit</button>
+                <br>
+                <button type="reset">Reset</button>
+            </form>
+        </center>
+    </body>
+</html>

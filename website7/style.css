@@ -1,0 +1,81 @@
+*{
+    box-sizing:border-box;
+}
+body{
+margin:0px;
+}
+.section1{
+    color:brown;
+    background-color: blanchedalmond;
+    font-size:30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align:center;
+    padding:30px;
+    margin:10px;
+    height:90vh;
+    width:100vw;
+}
+h1{
+    margin:0px;
+    padding:0px;
+}
+/* .c1{
+    background-color:brown;
+    color:white;
+    height:200px;
+    width:60%;
+    margin:10px auto;
+    border-left:10px solid blue;
+} */
+
+/* .c1{
+    background-color:brown;
+    color:white;
+    height:200px;
+    width:60%;
+    margin:10px auto;
+    border:10px solid blue;
+} */
+
+
+ /* .c1{
+    background-color:brown;
+    color:white;
+    height:200px;
+    width:60%;
+    margin:10px auto;
+    border:10px solid blue;
+    border-radius:10px;
+}  */
+
+/* .c1{
+    background-color:brown;
+    color:white;
+    height:200px;
+    width:200px;
+    margin:10px auto;
+    border:10px solid blue;
+    border-radius:50%;
+} */
+
+.c1{
+    background-color:brown;
+    color:white;
+    height:200px;
+    width:60%;
+    margin:10px auto;
+    border-width:2px;
+    border-color:black;
+    border-style: solid;
+} 
+
+/* dotted 
+dashed 
+solid 
+double 
+groove 
+ridge
+inset
+outset
+none
+hidden */
